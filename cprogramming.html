@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Edu Programming Languange</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="logo">
+          <img class="img-logo" src="assets/img/logo.png" alt="logo" />
+        </div>
+        <div class="div-header">
+          <nav class="navbar">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Article</button>
+                <div id="menuDropdown" class="dropdown-content">
+                  <li class="item-dropdown">
+                    <a href="cprogramming.html">C languange </a>
+                  </li>
+                  <li class="item-dropdown">
+                    <a href="cprogram.html">C Constants</a>
+                  </li>
+                </div>
+              </div>
+              <li><a href="about.html">About</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main>
+        <section class="banner-section">
+          <div class="div-banner">
+            <img class="img-banner" src="assets/img/bg.jpg" />
+            <h1 class="h1-cover">Edu Programming Language</h1>
+            <p class="p-cover">
+              Website edu programming languange ini berisi konten pembelajaran
+              dan tutorial dengang bahasa programming yang populer di dunia<br />
+              seperti Kotlin, Javascript dan Python.
+            </p>
+          </div>
+        </section>
+        <section class="reg-download">
+          <div class="input-email">
+            <h3 class="h3-input-email">
+              Masukkan email untuk mendapatkan ebook gratis
+            </h3>
+          </div>
+          <div class="form-input">
+            <form>
+              <input type="email" placeholder="Enter Email..." />
+              <button type="submit" class="button_1">
+                Register for Download
+              </button>
+            </form>
+          </div>
+        </section>
+        <div class="content">
+          <article class="article-content">
+            <section class="section-content">
+              <div class="img-section-section">
+                <img
+                  class="img-section"
+                  src="assets/img/cprogramming.png"
+                  alt="js"
+                />
+              </div>
+              <div class="text-context">
+                <h1 class="h1-content">C (programming language)</h1>
+                <p>
+                  <br /><a
+                    href="https://en.wikipedia.org/wiki/C_(programming_language)"
+                  >
+                    <strong> Source from Wiki...</strong> </a
+                  ><br />"C programming language" redirects here. For the book,
+                  see The C Programming Language. Not to be confused with C++ or
+                  C#.<br /><br />
+                  C (pronounced like the letter c) is a general-purpose computer
+                  programming language. It was created in the 1970s by Dennis
+                  Ritchie, and remains very widely used and influential. By
+                  design, C's features cleanly reflect the capabilities of the
+                  targeted CPUs. It has found lasting use in operating systems,
+                  device drivers, protocol stacks, though decreasingly[6] for
+                  application software. C is commonly used on computer
+                  architectures that range from the largest supercomputers to
+                  the smallest microcontrollers and embedded systems.
+                  <br /><br />
+                  A successor to the programming language B, C was originally
+                  developed at Bell Labs by Ritchie between 1972 and 1973 to
+                  construct utilities running on Unix. It was applied to
+                  re-implementing the kernel of the Unix operating system.[7]
+                  During the 1980s, C gradually gained popularity. It has become
+                  one of the most widely used programming languages,[8][9] with
+                  C compilers available for almost[citation needed] all modern
+                  computer architectures and operating systems. <br /><br />C
+                  has been standardized by ANSI since 1989 (ANSI C) and by the
+                  International Organization for Standardization (ISO). C is an
+                  imperative procedural language supporting structured
+                  programming, lexical variable scope, and recursion, with a
+                  static type system. It was designed to be compiled to provide
+                  low-level access to memory and language constructs that map
+                  efficiently to machine instructions, all with minimal runtime
+                  support. Despite its low-level capabilities, the language was
+                  designed to encourage cross-platform programming. A
+                  standards-compliant C program written with portability in mind
+                  can be compiled for a wide variety of computer platforms and
+                  operating systems with few changes to its source code.[10]
+                  Since 2000, C has consistently ranked among the top two
+                  languages in the TIOBE index, a measure of the popularity of
+                  programming languages.[11]
+                </p>
+              </div>
+            </section>
+          </article>
+
+          <aside class="aside-right">
+            <article>
+              <section>
+                <figure class="figure">
+                  <img
+                    class="circular--square x-card"
+                    src="assets/img/me.jpg"
+                  />
+                  <p class="bio">Nama: Amril Hakim Sihotang</p>
+                  <p class="bio">Email: amrilhakim99@gmail.com</p>
+                  <br /><br />
+                  <div
+                    id="MyClockDisplay"
+                    class="jam-digital"
+                    onload="showTime()"
+                  ></div>
+                </figure>
+              </section>
+            </article>
+          </aside>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <h4>Edu Programming Language &copy; Amril - 2022</h4>
+      </footer>
+    </div>
+    <script src="assets/js/jam.js"></script>
+    <script src="assets/js/menudropdown.js"></script>
+  </body>
+</html>

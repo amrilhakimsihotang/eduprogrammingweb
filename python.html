@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Edu Programming Languange</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="logo">
+          <img class="img-logo" src="assets/img/logo.png" alt="logo" />
+        </div>
+        <div class="div-header">
+          <nav class="navbar">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Article</button>
+                <div id="menuDropdown" class="dropdown-content">
+                  <li class="item-dropdown">
+                    <a href="cprogramming.html">C languange </a>
+                  </li>
+                  <li class="item-dropdown">
+                    <a href="cprogram.html">C Constants</a>
+                  </li>
+                </div>
+              </div>
+              <li><a href="about.html">About</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main>
+        <section class="banner-section">
+          <div class="div-banner">
+            <img class="img-banner" src="assets/img/bg.jpg" />
+            <h1 class="h1-cover">Edu Programming Language</h1>
+            <p class="p-cover">
+              Website edu programming languange ini berisi konten pembelajaran
+              dan tutorial dengang bahasa programming yang populer di dunia<br />
+              seperti Kotlin, Javascript dan Python.
+            </p>
+          </div>
+        </section>
+        <section class="reg-download">
+          <div class="input-email">
+            <h3 class="h3-input-email">
+              Masukkan email untuk mendapatkan ebook gratis
+            </h3>
+          </div>
+          <div class="form-input">
+            <form>
+              <input type="email" placeholder="Enter Email..." />
+              <button type="submit" class="button_1">
+                Register for Download
+              </button>
+            </form>
+          </div>
+        </section>
+        <div class="content">
+          <article class="article-content">
+            <section class="section-content">
+              <div class="img-section-section">
+                <img class="img-section" src="assets/img/python.png" alt="js" />
+              </div>
+              <div class="text-context">
+                <h1 class="h1-content">Python - Loops</h1>
+                <p>
+                  <br /><a
+                    href="https://www.tutorialspoint.com/python/python_loops.htm"
+                  >
+                    <strong> Source from Python ...</strong> </a
+                  ><br />In general, statements are executed sequentially: The
+                  first statement in a function is executed first, followed by
+                  the second, and so on. There may be a situation when you need
+                  to execute a block of code several number of times.
+                  Programming languages provide various control structures that
+                  allow for more complicated execution paths.<br />
+                  A loop statement allows us to execute a statement or group of
+                  statements multiple times. The following diagram illustrates a
+                  loop statement − Loop Architecture Python programming language
+                  provides following types of loops to handle looping
+                  requirements.<br /><br />
+                  Loop Control Statements Loop control statements change
+                  execution from its normal sequence. When execution leaves a
+                  scope, all automatic objects that were created in that scope
+                  are destroyed. Python supports the following control
+                  statements. Click the following links to check their detail.
+                  Let us go through the loop control statements briefly
+                </p>
+              </div>
+            </section>
+          </article>
+
+          <aside class="aside-right">
+            <article>
+              <section>
+                <figure class="figure">
+                  <img
+                    class="circular--square x-card"
+                    src="assets/img/me.jpg"
+                  />
+                  <p class="bio">Nama: Amril Hakim Sihotang</p>
+                  <p class="bio">Email: amrilhakim99@gmail.com</p>
+                  <br /><br />
+                  <div
+                    id="MyClockDisplay"
+                    class="jam-digital"
+                    onload="showTime()"
+                  ></div>
+                </figure>
+              </section>
+            </article>
+          </aside>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <h4>Edu Programming Language &copy; Amril - 2022</h4>
+      </footer>
+    </div>
+    <script src="assets/js/jam.js"></script>
+    <script src="assets/js/menudropdown.js"></script>
+  </body>
+</html>

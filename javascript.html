@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Edu Programming Languange</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="logo">
+          <img class="img-logo" src="assets/img/logo.png" alt="logo" />
+        </div>
+        <div class="div-header">
+          <nav class="navbar">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Article</button>
+                <div id="menuDropdown" class="dropdown-content">
+                  <li class="item-dropdown">
+                    <a href="cprogramming.html">C languange </a>
+                  </li>
+                  <li class="item-dropdown">
+                    <a href="cprogram.html">C Constants</a>
+                  </li>
+                </div>
+              </div>
+              <li><a href="about.html">About</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main>
+        <section class="banner-section">
+          <div class="div-banner">
+            <img class="img-banner" src="assets/img/bg.jpg" />
+            <h1 class="h1-cover">Edu Programming Language</h1>
+            <p class="p-cover">
+              Website edu programming languange ini berisi konten pembelajaran
+              dan tutorial dengang bahasa programming yang populer di dunia<br />
+              seperti Kotlin, Javascript dan Python.
+            </p>
+          </div>
+        </section>
+        <section class="reg-download">
+          <div class="input-email">
+            <h3 class="h3-input-email">
+              Masukkan email untuk mendapatkan ebook gratis
+            </h3>
+          </div>
+          <div class="form-input">
+            <form>
+              <input type="email" placeholder="Enter Email..." />
+              <button type="submit" class="button_1">
+                Register for Download
+              </button>
+            </form>
+          </div>
+        </section>
+        <div class="content">
+          <article class="article-content">
+            <section class="section-content">
+              <div class="img-section-section">
+                <img
+                  class="img-section"
+                  src="assets/img/javascript.png"
+                  alt="js"
+                />
+              </div>
+              <div class="text-context">
+                <h1 class="h1-content">Inheritance and the prototype chain</h1>
+                <p>
+                  <br /><a
+                    href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain"
+                  >
+                    <strong> Source from Mozilla Developer ...</strong> </a
+                  ><br />JavaScript is a bit confusing for developers
+                  experienced in class-based languages (like Java or C++), as it
+                  is dynamic and does not have static types. When it comes to
+                  inheritance, JavaScript only has one construct: objects. Each
+                  object has a private property which holds a link to another
+                  object called its prototype. That prototype object has a
+                  prototype of its own, and so on until an object is reached
+                  with null as its prototype. By definition, null has no
+                  prototype, and acts as the final link in this prototype chain.
+                  It is possible to mutate any member of the prototype chain or
+                  even swap out the prototype at runtime, so concepts like
+                  static dispatching do not exist in JavaScript. While this
+                  confusion is often considered to be one of JavaScript's
+                  weaknesses, the prototypical inheritance model itself is, in
+                  fact, more powerful than the classic model. It is, for
+                  example, fairly trivial to build a classic model on top of a
+                  prototypical model — which is how classes are implemented.
+                  Although classes are now widely adopted and have become a new
+                  paradigm in JavaScript, classes do not bring a new inheritance
+                  pattern. While classes abstract most of the prototypical
+                  mechanism away, understanding how prototypes work under the
+                  hood is still useful. <br /><br />
+                  <strong>Inheritance with the prototype chain</strong><br />
+                  <br />Inheriting properties JavaScript objects are dynamic
+                  "bags" of properties (referred to as own properties).
+                  JavaScript objects have a link to a prototype object. When
+                  trying to access a property of an object, the property will
+                  not only be sought on the object but on the prototype of the
+                  object, the prototype of the prototype, and so on until either
+                  a property with a matching name is found or the end of the
+                  prototype chain is reached.<br /><br />
+
+                  Note: Following the ECMAScript standard, the notation
+                  someObject.[[Prototype]] is used to designate the prototype of
+                  someObject. The [[Prototype]] internal slot can be accessed
+                  with the Object.getPrototypeOf() and Object.setPrototypeOf()
+                  functions. This is equivalent to the JavaScript accessor
+                  __proto__ which is non-standard but de-facto implemented by
+                  many JavaScript engines. To prevent confusion while keeping it
+                  succinct, in our notation we will avoid using obj.__proto__
+                  but use obj.[[Prototype]] instead. This corresponds to
+                  Object.getPrototypeOf(obj). It should not be confused with the
+                  func.prototype property of functions, which instead specifies
+                  the [[Prototype]] to be assigned to all instances of objects
+                  created by the given function when used as a constructor. We
+                  will discuss the prototype property of constructor functions
+                  in a later section.
+                </p>
+              </div>
+            </section>
+          </article>
+
+          <aside class="aside-right">
+            <article>
+              <section>
+                <figure class="figure">
+                  <img
+                    class="circular--square x-card"
+                    src="assets/img/me.jpg"
+                  />
+                  <p class="bio">Nama: Amril Hakim Sihotang</p>
+                  <p class="bio">Email: amrilhakim99@gmail.com</p>
+                  <br /><br />
+                  <div
+                    id="MyClockDisplay"
+                    class="jam-digital"
+                    onload="showTime()"
+                  ></div>
+                </figure>
+              </section>
+            </article>
+          </aside>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <h4>Edu Programming Language &copy; Amril - 2022</h4>
+      </footer>
+    </div>
+    <script src="assets/js/jam.js"></script>
+    <script src="assets/js/menudropdown.js"></script>
+  </body>
+</html>

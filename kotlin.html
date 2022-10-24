@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Edu Programming Languange</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="logo">
+          <img class="img-logo" src="assets/img/logo.png" alt="logo" />
+        </div>
+        <div class="div-header">
+          <nav class="navbar">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Article</button>
+                <div id="menuDropdown" class="dropdown-content">
+                  <li class="item-dropdown">
+                    <a href="cprogramming.html">C languange </a>
+                  </li>
+                  <li class="item-dropdown">
+                    <a href="cprogram.html">C Constants</a>
+                  </li>
+                </div>
+              </div>
+              <li><a href="about.html">About</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main>
+        <section class="banner-section">
+          <div class="div-banner">
+            <img class="img-banner" src="assets/img/bg.jpg" />
+            <h1 class="h1-cover">Edu Programming Language</h1>
+            <p class="p-cover">
+              Website edu programming languange ini berisi konten pembelajaran
+              dan tutorial dengang bahasa programming yang populer di dunia<br />
+              seperti Kotlin, Javascript dan Python.
+            </p>
+          </div>
+        </section>
+        <section class="reg-download">
+          <div class="input-email">
+            <h3 class="h3-input-email">
+              Masukkan email untuk mendapatkan ebook gratis
+            </h3>
+          </div>
+          <div class="form-input">
+            <form>
+              <input type="email" placeholder="Enter Email..." />
+              <button type="submit" class="button_1">
+                Register for Download
+              </button>
+            </form>
+          </div>
+        </section>
+        <div class="content">
+          <article class="article-content">
+            <section class="section-content">
+              <div class="img-section-section">
+                <img
+                  class="img-section"
+                  src="assets/img/kotlinlogo.png"
+                  alt="js"
+                />
+              </div>
+              <div class="text-context">
+                <h1 class="h1-content">Generic - Kotlin</h1>
+                <p>
+                  <br /><a
+                    href="https://play.kotlinlang.org/byExample/01_introduction/06_Generics"
+                  >
+                    <strong> Source from Kotlin Content ...</strong> </a
+                  ><br />Generics are a genericity mechanism that's become
+                  standard in modern languages. Generic classes and functions
+                  increase code reusability by encapsulating common logic that
+                  is independent of a particular generic type, like the logic
+                  inside a List "T" is independent of what T is.
+                </p>
+              </div>
+            </section>
+          </article>
+
+          <aside class="aside-right">
+            <article>
+              <section>
+                <figure class="figure">
+                  <img
+                    class="circular--square x-card"
+                    src="assets/img/me.jpg"
+                  />
+                  <p class="bio">Nama: Amril Hakim Sihotang</p>
+                  <p class="bio">Email: amrilhakim99@gmail.com</p>
+                  <br /><br />
+                  <div
+                    id="MyClockDisplay"
+                    class="jam-digital"
+                    onload="showTime()"
+                  ></div>
+                </figure>
+              </section>
+            </article>
+          </aside>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <h4>Edu Programming Language &copy; Amril - 2022</h4>
+      </footer>
+    </div>
+    <script src="assets/js/jam.js"></script>
+    <script src="assets/js/menudropdown.js"></script>
+  </body>
+</html>
